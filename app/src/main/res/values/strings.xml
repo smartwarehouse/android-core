@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Smart Warehouse</string>
+    <string name="title">Percobaan</string>
+    <string name="my_hint">Kata Sandi</string>
+    <string name="button1">Masuk</string>
+    <string name="nama">Nama Pengguna</string>
+    <string name="forgot_password">Nama Pengguna</string>
+</resources>
