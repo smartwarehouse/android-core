@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">New Smart Warehouse</string>
+    <string name="title_activity_menu_barang">MenuBarang</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string-array name="android_dropdown_arrays">
+        <item>Pilih Jenis Barang</item>
+        <item>Daftar Drop Down  1</item>
+        <item>Daftar Drop Down  2</item>
+        <item>Daftar Drop Down  3</item>
+        <item>Daftar Drop Down  5</item>
+        <item>Daftar Drop Down  6</item>
+        <item>Daftar Drop Down  7</item>
+        <item>Daftar Drop Down  8</item>
+    </string-array>
+
+    <string-array name="android_dropdown">
+        <item>Pilih Lokasi Rak</item>
+        <item>Daftar Drop Down  1</item>
+        <item>Daftar Drop Down  2</item>
+        <item>Daftar Drop Down  3</item>
+        <item>Daftar Drop Down  5</item>
+        <item>Daftar Drop Down  6</item>
+        <item>Daftar Drop Down  7</item>
+        <item>Daftar Drop Down  8</item>
+    </string-array>
+
+    <string-array name="android_dropdowntgl">
+        <item>dd</item>
+        <item>Daftar Drop Down  1</item>
+        <item>Daftar Drop Down  2</item>
+        <item>Daftar Drop Down  3</item>
+        <item>Daftar Drop Down  5</item>
+        <item>Daftar Drop Down  6</item>
+        <item>Daftar Drop Down  7</item>
+        <item>Daftar Drop Down  8</item>
+    </string-array>
+
+    <string-array name="android_dropdownbln">
+        <item>mm</item>
+        <item>Daftar Drop Down  1</item>
+        <item>Daftar Drop Down  2</item>
+        <item>Daftar Drop Down  3</item>
+        <item>Daftar Drop Down  5</item>
+        <item>Daftar Drop Down  6</item>
+        <item>Daftar Drop Down  7</item>
+        <item>Daftar Drop Down  8</item>
+    </string-array>
+
+    <string-array name="android_dropdownthn">
+        <item>yyyy</item>
+        <item>Daftar Drop Down  1</item>
+        <item>Daftar Drop Down  2</item>
+        <item>Daftar Drop Down  3</item>
+        <item>Daftar Drop Down  5</item>
+        <item>Daftar Drop Down  6</item>
+        <item>Daftar Drop Down  7</item>
+        <item>Daftar Drop Down  8</item>
+    </string-array>
+    <string-array name="android_dropdownmgg">
+        <item>week</item>
+        <item>Daftar Drop Down  1</item>
+        <item>Daftar Drop Down  2</item>
+        <item>Daftar Drop Down  3</item>
+        <item>Daftar Drop Down  5</item>
+        <item>Daftar Drop Down  6</item>
+        <item>Daftar Drop Down  7</item>
+        <item>Daftar Drop Down  8</item>
+    </string-array>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_notifikasi">Notifikasi</string>
+    <string name="Chart">My Chart</string>
+</resources>
