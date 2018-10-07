@@ -8,9 +8,7 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="308dp"
-        android:layout_height="414dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="48dp" />
+        android:layout_width="381dp"
+        android:layout_height="515dp"
+        android:text="TextView" />
 </android.support.constraint.ConstraintLayout>

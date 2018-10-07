@@ -9,7 +9,7 @@
     android:paddingRight="16dp"
     android:paddingTop="16dp"
     android:paddingBottom="16dp"
-    tools:context=".LupaSandi">
+    tools:context=".TambahBarang">
 
     <EditText
         android:id="@+id/editText"
