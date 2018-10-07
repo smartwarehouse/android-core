@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,4 +9,102 @@
     tools:context=".HomeActivity"
     tools:showIn="@layout/app_bar_home">
 
-</android.support.constraint.ConstraintLayout>
+    <View
+        android:id="@+id/kotakAtas"
+        android:layout_width="349dp"
+        android:layout_height="190dp"
+        android:layout_alignTop="@+id/data1"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rectangle"
+        android:padding="23dp" />
+
+    <View
+        android:id="@+id/kotakBawah"
+        android:layout_width="349dp"
+        android:layout_height="202dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="83dp"
+        android:background="@drawable/rectangle2"
+        android:padding="23dp" />
+
+    <TextView
+        android:id="@+id/data1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/data1"
+        android:textColor="#47525E"
+        android:textSize="95sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/data2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="140dp"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/data2"
+        android:textColor="#FDFDFD"
+        android:textSize="95sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/String1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="195dp"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/dataString1"
+        android:textAlignment="center"
+        android:textColor="#47525E"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/String2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="113dp"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/dataString2"
+        android:textAlignment="center"
+        android:textColor="#FDFDFD"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/String3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="21dp"
+        android:fontFamily="@font/montserrat"
+        android:lineSpacingExtra="32.5sp"
+        android:text="@string/dataString3"
+        android:textAlignment="center"
+        android:textColor="#47525E"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/kotakBawah"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/ic_user_24dp" />
+
+</RelativeLayout>
