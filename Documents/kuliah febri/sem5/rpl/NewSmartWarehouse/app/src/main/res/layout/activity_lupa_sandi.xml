@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".LupaSandi">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:inputType="none"
+        android:text="Masukkan Kata Sandi Baru"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:inputType="none"
+        android:text="Konfirmasi Kata Sandi" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText"
+        android:layout_marginTop="172dp"
+        android:ems="10"
+        android:inputType="none"
+        android:text="Masukkan Nomor Telepon" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText"
+        android:layout_alignTop="@+id/editText4"
+        android:text="Minta OTP" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:inputType="none"
+        android:text="Masukkan OTP" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="129dp"
+        android:background="@color/colorPrimary"
+        android:text="SELESAI"
+        android:textColor="@color/colorAccent" />
+
+</RelativeLayout>

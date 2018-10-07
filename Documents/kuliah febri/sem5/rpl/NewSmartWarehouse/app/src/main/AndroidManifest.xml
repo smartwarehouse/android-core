@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.febrinia.newsmartwarehouse">
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MenuBarang"
+            android:label="Barang" />
+        <activity
+            android:name=".LupaSandi"
+            android:label="Lupa Kata Sandi" />
+        <activity
+            android:name=".TambahBarang"
+            android:label="Tambah Barang" />
+        <activity
+            android:name=".HalamanHelp"
+            android:label="Help" />
+        <activity
+            android:name=".HalamanAbout"
+            android:label="About" />
+        <activity
+            android:name=".EditBarang"
+            android:label="Edit Barang" />
+        <activity
+            android:name=".TambahBarangReturn"
+            android:label="Tambah Barang Return" />
+        <activity
+            android:name=".EditBarangReturn"
+            android:label="Edit Barang Return" />
+        <activity
+            android:name=".InformasiBarang"
+            android:label="Informasi Barang" />
+        <activity
+            android:name=".LaporanHarian"
+            android:label="Laporan Harian" />
+        <activity
+            android:name=".LaporanMingguan"
+            android:label="Laporan Mingguan" />
+        <activity
+            android:name=".LaporanBulanan"
+            android:label="Laporan Bulanan" />
+        <activity
+            android:name=".LaporanTahunan"
+            android:label="Laporan Tahunan" />
+        <activity
+            android:name=".Notifikasi"
+            android:label="Notifikasi" />
+        <activity
+            android:name=".MenuLaporan"
+            android:label="Laporan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuStatis"
+            android:label="Statistik" />
+    </application>
+
+</manifest>

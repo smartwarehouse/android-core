@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".TambahBarangReturn">
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp"
+        android:ems="10"
+        android:inputType="none"
+        android:text="Masukkan Nama Barang" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="343dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="143dp"
+        android:backgroundTint="#2ecc71"
+        android:entries="@array/android_dropdown_arrays"
+        android:padding="5dp" />
+
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="215dp"
+        android:ems="10"
+        android:inputType="none"
+        android:text="Deskripsi" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="125dp"
+        android:background="@color/colorPrimary"
+        android:text="SIMPAN"
+        android:textColor="@color/colorAccent" />
+
+</RelativeLayout>
